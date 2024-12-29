@@ -1,0 +1,215 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  Total_Profit = 126568.4295 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Site1_CARBON_10_Constraint
+                    BS    1281.93445     218.06555          -Inf         .           -8.32072  115901.81102 Site1_Labor_Constraint
+                                            .         1500.00000     1996.55316      18.36692  150113.61080 Product5_Site1
+
+     2 Site1_CARBON_20_Constraint
+                    BS    1251.08225     748.91775          -Inf      825.14870      -9.89810  114185.09562 Product6_Site1
+                                            .         2000.00000     1403.54877      30.62202  164879.09126 Site1_CARBON_30_Constraint
+
+     3 Site1_CARBON_30_Constraint
+                    NU     800.00000        .               -Inf      385.64982     -11.26784  121899.59735 Site1_CARBON_10_Constraint
+                                          11.26784     800.00000     1648.44670          +Inf  136128.59263 Site1_CBAA_Constraint
+
+     4 _dummy       BS        .             .             .              .               -Inf  126568.42954
+                                            .             .              .               +Inf  126568.42954
+
+     5 Site1_CARBON_40_Constraint
+                    BS        .          800.00000          -Inf         .               -Inf  126568.42954
+                                            .          800.00000         .               +Inf  126568.42954
+
+     6 Site1_CARBON_60_Constraint
+                    BS        .         1000.00000          -Inf         .               -Inf  126568.42954
+                                            .         1000.00000      380.00000      14.23254  126568.42954 Product2_Site1
+
+     7 Site1_CBAA_Constraint
+                    BS     793.26654     206.73346          -Inf      342.85714     -23.68205  107782.25058 Site1_Labor_Constraint
+                                            .         1000.00000      893.85312      48.99313  165433.04022 Product1_Site1
+
+     8 Site1_CBZZ_Constraint
+                    BS        .          500.00000          -Inf         .               -Inf  126568.42954
+                                            .          500.00000      202.80299      20.78831  126568.42954 Product6_Site1
+
+     9 Site1_Labor_Constraint
+                    NU     168.00000        .               -Inf       87.15729    -131.94286  115901.81102 Product3_Site1
+                                         131.94286     168.00000      181.75188          +Inf  128382.89211 Site1_CARBON_10_Constraint
+
+    10 Site1_RSXX_Constraint
+                    NU    3000.00000        .               -Inf     2319.28185     -12.03550  118375.64775 Site1_CARBON_10_Constraint
+                                          12.03550    3000.00000     4453.78151          +Inf  144065.41378 Site1_CARBON_20_Constraint
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  Total_Profit = 126568.4295 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Site1_SBRXL_Constraint
+                    BS        .          200.00000          -Inf         .               -Inf  126568.42954
+                                            .          200.00000      526.31579      27.04182  126568.42954 Product2_Site1
+
+    12 Site1_SLSM_Constraint
+                    BS        .          900.00000          -Inf         .               -Inf  126568.42954
+                                            .          900.00000      556.59008      26.06214  126568.42954 Product4_Site1
+
+    13 Site1_STYY_Constraint
+                    BS    2303.77242    1696.22758          -Inf      571.42857      -6.15733  112383.33483 Site1_Labor_Constraint
+                                            .         4000.00000     2598.45560      27.80200  190617.91030 Site1_RSXX_Constraint
+
+    14 Site2_CARBON_10_Constraint
+                    BS     319.76970    1180.23030          -Inf         .           -8.32072  123907.71519 Site2_Labor_Constraint
+                                            .         1500.00000      671.05882      13.39787  130852.66294 Product6_Site2
+
+    15 Site2_CARBON_20_Constraint
+                    BS    1251.08225     748.91775          -Inf      712.20168      -8.73390  115641.60768 Product6_Site2
+                                            .         2000.00000     1670.85714      29.23843  163148.11208 Product4_Site2
+
+    16 Site2_CARBON_30_Constraint
+                    NU     800.00000        .               -Inf         .          -11.82189  117110.91958 Product8_Site2
+                                          11.82189     800.00000     1495.60976          +Inf  134791.84978 Product3_Site2
+
+    17 Site2_CARBON_40_Constraint
+                    BS        .          800.00000          -Inf         .               -Inf  126568.42954
+                                            .          800.00000         .               +Inf  126568.42954
+
+    18 Site2_CARBON_60_Constraint
+                    BS        .         1000.00000          -Inf         .               -Inf  126568.42954
+                                            .         1000.00000      380.00000      13.64332  126568.42954 Product2_Site2
+
+    19 Site2_CBAA_Constraint
+                    BS     455.20866     544.79134          -Inf      342.85714     -23.68205  115788.15475 Site2_Labor_Constraint
+                                            .         1000.00000      980.94535      40.74543  145116.10146 Product1_Site2
+
+    20 Site2_CBZZ_Constraint
+                    BS        .          500.00000          -Inf         .               -Inf  126568.42954
+                                            .          500.00000      256.58131      18.34322  126568.42954 Product6_Site2
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  Total_Profit = 126568.4295 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Site2_Labor_Constraint
+                    NU     168.00000        .               -Inf      139.19192     -92.36000  123907.71519 Product3_Site2
+                                          92.36000     168.00000      274.32705          +Inf  136388.79627 Site2_CARBON_10_Constraint
+
+    22 Site2_RSXX_Constraint
+                    NU    3000.00000        .               -Inf      571.42857     -11.43576   98795.87542 Product9_Site2
+                                          11.43576    3000.00000     3814.85714          +Inf  135886.93828 Product3_Site2
+
+    23 Site2_SBRXL_Constraint
+                    BS        .          200.00000          -Inf         .               -Inf  126568.42954
+                                            .          200.00000      452.69841      25.92230  126568.42954 Product2_Site2
+
+    24 Site2_SLSM_Constraint
+                    BS        .          900.00000          -Inf         .               -Inf  126568.42954
+                                            .          900.00000      493.85281      24.85267  126568.42954 Product4_Site2
+
+    25 Site2_STYY_Constraint
+                    BS    1003.54978    2996.45022          -Inf      571.42857      -6.15733  120389.23900 Site2_Labor_Constraint
+                                            .         4000.00000     2291.42857      21.56457  148209.55053 Site2_RSXX_Constraint
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    
+Objective:  Total_Profit = 126568.4295 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Product1_Site1
+                    NL        .           39.90000        .          -193.83754          -Inf  142725.16569 Site1_CARBON_20_Constraint
+                                         -83.35195          +Inf       59.12341     123.25195  121640.37838 Site1_CARBON_10_Constraint
+
+     2 Product1_Site2
+                    NL        .           39.90000        .          -193.83754          -Inf  141725.39699 Site2_CARBON_20_Constraint
+                                         -78.19418          +Inf      273.95090     118.09418  105147.06275 Site2_CARBON_10_Constraint
+
+     3 Product2_Site1
+                    NL        .            6.02000        .           -86.44040          -Inf  133580.94624 Site1_CARBON_10_Constraint
+                                         -81.12545          +Inf       66.66667      87.14545  121160.06590 Site1_SBRXL_Constraint
+
+     4 Product2_Site2
+                    NL        .            6.02000        .          -323.06256          -Inf  151692.00614 Site2_CARBON_20_Constraint
+                                         -77.76691          +Inf       66.66667      83.78691  121383.96893 Site2_SBRXL_Constraint
+
+     5 Product3_Site1
+                    BS     230.97918      46.18000        .                -Inf        .       115901.81102 Site1_Labor_Constraint
+                                            .               +Inf      270.27027     165.00674  154014.93225 Site1_CARBON_30_Constraint
+
+     6 Product3_Site2
+                    BS      57.61616      46.18000        .                -Inf        .       123907.71519 Site2_Labor_Constraint
+                                            .               +Inf      123.87879     188.90767  134791.84978 Site2_CARBON_30_Constraint
+
+     7 Product4_Site1
+                    NL        .           14.37500        .           -91.67921          -Inf  133736.49967 Site1_CARBON_10_Constraint
+                                         -78.18643          +Inf      185.53003      92.56143  112062.49945 Site1_CBAA_Constraint
+
+     8 Product4_Site2
+                    NL        .           14.37500        .          -607.58317          -Inf  171868.61534 Site2_CARBON_10_Constraint
+                                         -74.55800          +Inf      164.61760      88.93300  114294.87017 Product3_Site2
+
+     9 Product5_Site1
+                    NL        .           26.93000        .          -212.95620          -Inf  137469.40867 Site1_CBAA_Constraint
+                                         -51.18883          +Inf       78.24347      78.11883  122563.23801 Site1_CARBON_10_Constraint
+
+    10 Product5_Site2
+                    NL        .           26.93000        .          -387.67507          -Inf  145285.41716 Site2_CARBON_20_Constraint
+                                         -48.28009          +Inf      132.49710      75.21009  120171.45768 Product3_Site2
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    
+Objective:  Total_Profit = 126568.4295 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Product6_Site1
+                    NL        .          101.32500        .          -182.86560          -Inf  133981.29032 Site1_CARBON_20_Constraint
+                                         -40.53721          +Inf      104.00153     141.86221  122352.49775 Site1_CARBON_10_Constraint
+
+    12 Product6_Site2
+                    NL        .          101.32500        .          -182.86560          -Inf  133109.39902 Site2_CARBON_20_Constraint
+                                         -35.76927          +Inf      131.58016     137.09427  121861.90285 Product3_Site2
+
+    13 Product7_Site1
+                    NL        .           19.17500        .          -153.83461          -Inf  143412.23044 Site1_CARBON_10_Constraint
+                                        -109.49292          +Inf      256.41026     128.66792   98493.32131 Site1_CBZZ_Constraint
+
+    14 Product7_Site2
+                    NL        .           19.17500        .         -1542.32650          -Inf  287071.05764 Site2_CARBON_10_Constraint
+                                        -104.06527          +Inf      256.41026     123.24027   99885.02627 Site2_CBZZ_Constraint
+
+    15 Product8_Site1
+                    BS     152.38095     137.27500        .            73.45711      78.11883  117554.15619 Site1_CARBON_30_Constraint
+                                            .               +Inf      152.38095          +Inf          +Inf
+
+    16 Product8_Site2
+                    BS     152.38095     137.27500        .          -235.29412      75.21009  117110.91958 Site2_CARBON_30_Constraint
+                                            .               +Inf      152.38095          +Inf          +Inf
+
+    17 Product9_Site1
+                    BS     245.31025     145.54000        .           161.79386      95.05970  114185.09562 Product6_Site1
+                                            .               +Inf      275.20564     301.71229  164879.09126 Site1_CARBON_30_Constraint
+
+    18 Product9_Site2
+                    BS     245.31025     145.54000        .           139.64739     100.99713  115641.60768 Product6_Site2
+                                            .               +Inf      303.03030     309.39136  166762.84685 Site2_CARBON_30_Constraint
+
+    19 __dummy      NS        .             .             .              .               -Inf  126568.42954 _dummy
+                                            .             .              .               +Inf  126568.42954 _dummy
+
+End of report
